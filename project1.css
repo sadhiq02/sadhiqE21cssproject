@@ -1,0 +1,215 @@
+body{
+   
+    background-color: azure;
+}
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.container{
+    margin: auto10px;
+  
+}
+.main-nav{
+    height: 100px;
+    padding: 0px;
+    width: 1350px;
+    background-color: rgb(170, 238, 238);
+    font: weight 500px;
+    display: flex;
+    justify-content: space-evenly;
+    position: fixed;
+}
+img.logo{
+width: 8%;
+}
+img.logo:hover{
+    padding: 1rem;
+    }
+ul.nov-option{
+    list-style: none;
+        display: flex;
+        padding: 20px;
+        margin: 0.5rem;
+        gap: 1.2rem;
+        border-radius: 10px;
+        align-items: center;
+        
+    }
+    .contantce{
+        list-style: none;
+        display: flex;
+        padding: 10px;
+        margin-inline-end:0.2rem;
+        gap: 1rem;
+        border-radius: 10px;
+        align-items: center;
+    }
+    li.blank{
+        border: 0.1rem solid;
+        color: rgb(18, 18, 19);
+        height: 30px;
+    }
+ul.nov-option2{
+    list-style: none;
+        display: flex;
+        padding: 30px;
+        margin-inline-end: 0.2rem;
+        gap: 1rem;
+        align-items: center;
+        text-decoration:solid ;
+    }
+
+ul.nov-option li a:hover{color: rgb(50, 47, 247);
+}
+  ul.nov-option2 li a:hover{color: rgb(50, 47, 247);
+}  
+.box{
+    color: rgb(18, 18, 19);
+   
+}
+a{
+    text-decoration: none;
+}
+
+h1.main-heading{
+    margin-top:  70px ;
+    text-decoration:solid 10rem;
+    padding: 20px;
+    height: 3rem;
+    display: block;
+    text-align: center;
+    background-color: rgb(15, 15, 15);
+    color: rgb(244, 244, 247);
+ }
+h3{
+    text-align: center;
+    padding: 10px;
+}
+.firstpara{
+    background-color: rgb(148, 207, 192);
+    color: rgb(17, 17, 17);
+    padding: 10px;
+    text-align: justify;
+}
+.second-h2{
+    text-decoration:solid 10rem;
+    padding: 5px;
+    height: 2rem;
+    display: block;
+    background-color: rgb(144, 235, 102);
+    text-align: center;
+    align-content: center;
+    text-shadow: 1rem;
+}
+div.Socailmedia{
+    display: flex;
+    height: 200px;
+    padding: 2rem;
+    justify-content: space-around;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.sm1:hover{
+    position: relative;
+    padding: 2rem;
+}
+.sm2:hover{
+    position: relative;
+    padding: 2rem;
+}
+.sm3:hover{
+    position: relative;
+    padding: 2rem;
+}
+.sm4:hover{
+    position: relative;
+    padding: 2rem;
+}
+.sm5:hover{
+    position: relative;
+    padding: 2rem;
+}
+.thrid-h2{
+    text-decoration:solid 10rem;
+    padding: 3px;
+    height: 2rem;
+    display: block;
+    background-color: rgb(102, 182, 235);
+    text-align: center;
+    align-content: center;
+    text-shadow: 1rem;
+}
+li.blank1{
+    border: 0.1rem solid;
+    color: rgb(0, 0, 8);
+        height: 0px;
+    list-style: none;
+}
+.button-1{
+display: flex;
+border-radius: 1.5rem;
+text-size-adjust: 1rem;
+background-color: black;
+color: white;
+justify-content: center;
+padding: 1.2rem;
+gap: 2rem;
+
+
+}
+div.button-1 .butsub:hover{
+    color:rgb(255, 0, 0);
+padding: 0.7rem;
+border-radius: 1.5rem;
+    
+}
+div.button-1 .butsee:hover{
+    color:rgb(255, 0, 0);
+padding: 0.7rem;
+border-radius: 1.5rem;
+    
+}
+div.onlineentertainment{
+    display: flex;
+    height: 300px;
+    gap: 1rem;
+    padding: 2rem;
+    justify-content: space-around;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.oe1:hover{
+    position: relative;
+    padding: 2rem;
+}
+
+.oe2:hover{
+    position: relative;
+    padding: 2rem;
+}
+.oe3:hover{
+    position: relative;
+    padding: 2rem;
+}
+.oe4:hover{
+    position: relative;
+    padding: 2rem;
+}
+footer {
+    text-align: center;
+    height: 150px;
+    padding: 3px;
+    background-color: rgb(53, 45, 43);
+    color: white;
+     }
+  .footer1:hover{
+color: blue;
+    display:flex;
+    align-content:space-evenly; 
+    gap: 5rem;
+  }
